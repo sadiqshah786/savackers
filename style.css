@@ -1,0 +1,1019 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+@font-face {
+    font-family: DarlingtonDemo;
+    src: url(assests/fonts/DarlingtonDemo-z8xjG.ttf);
+}
+
+ul li {
+    list-style: none;
+}
+
+.card {
+    border-radius: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #243642;
+
+}
+
+body {
+    border-color: #35aab0 !important;
+}
+
+dl,
+ol,
+ul {
+    padding-left: 0px;
+}
+
+.header {
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 30px 60px rgb(0 0 0 / 2%), 0 0 20px rgb(0 0 0 / 4%);
+}
+
+/* .header .row{
+    flex-wrap: unset;
+} */
+.logo_wrapper {
+    width: 20%;
+    text-align: center;
+}
+
+.logo_wrapper img {
+    width: 200px;
+}
+
+.navigation {
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.navigation>ul>li {
+    display: inline-block;
+}
+
+.navigation>ul>li>a {
+    font-size: 15px;
+    padding-right: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.navigation>ul>li {
+    position: relative;
+}
+
+.mobile_navigation {
+    display: none;
+}
+
+.icons {
+    text-align: right;
+    padding-right: 40px;
+}
+
+section.boxes {
+    padding-top: 100px;
+}
+
+.boxes .card img {
+    width: 20%;
+}
+
+.boxes .card {
+    border: none;
+    border-left: 1px solid #e0f0f0;
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes h5.card-title {
+    background: no-repeat 0 1.25rem/100% 0.875rem linear-gradient(to right, #6bc1c561 0, #77c5ca2e 100%);
+    padding: 10px 6px 0;
+    white-space: nowrap;
+    color: #222;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.boxes p.card-text {
+    line-height: 7px;
+}
+
+.banner,
+.editors,
+.mission_team,
+section.reviewBoard
+ {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.banner_inner {
+    background-image: url(assests/img/bg.webp);
+    width: 100%;
+    background-size: cover;
+    height: 450px;
+    transition: .15s filter linear;
+    padding: 1px;
+}
+
+.banner_inner .card {
+    width: 60%;
+    margin: 50px 30px;
+    cursor: pointer;
+    border: 0.6875rem solid #35aab0;
+    padding: 20px;
+}
+
+.banner_inner .card h2 {
+    font-size: 44px;
+}
+
+.banner_inner a:hover,
+.blogs .card-body a:hover {
+    border-bottom: 2px solid #35aab0;
+    color: inherit;
+}
+
+.banner_inner .card h5 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.36;
+    color: #00727a;
+    text-transform: uppercase;
+}
+
+
+.right_side .card,
+.blogs .card {
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 2%) 0px 30px 60px, rgb(0 0 0 / 4%) 0px 0px 20px;
+    border: none;
+}
+
+.right_side .img_text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.right_side .img_text img {
+    width: 50px;
+}
+
+.img_text p {
+    margin-top: 10px;
+}
+
+.right_side .card {
+    background: #fff;
+    padding: 4px 20px;
+}
+
+.links_main {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.main_heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.main_heading h4 {
+    font-size: 24px;
+}
+
+.blogs .card {
+    transition: .4s ease-in-out;
+}
+
+.blogs .card a:hover {
+    color: unset;
+}
+
+.blogs .card:hover {
+    transform: translateY(-10px);
+    transition: .4s ease-in-out;
+}
+
+.blogs .card h5.card-title {
+    line-height: 30px;
+}
+
+.mission_wrapper .card {
+    background-image: url(assests/img/mission_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px 60px;
+    text-align: center;
+    border: none;
+}
+
+.mission_wrapper p.card-text {
+    font-size: 20px;
+}
+
+.mission_wrapper .card-body {
+    margin-top: 40px;
+}
+
+.mission_wrapper h5.card-title {
+    color: #2f2f7a;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mission_wrapper .card-body h4 {
+    font-family: DarlingtonDemo;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.team_wrapper .card-title {
+    text-align: center;
+}
+
+
+.team_wrapper .teams {
+    display: flex;
+    padding: 10px 10px;
+    transition: 0.3s ease-in-out;
+    justify-content: center;
+}
+
+.team_wrapper .card {
+    border: none;
+}
+
+
+.team_wrapper h5.card-title {
+    font-size: 24px;
+    background: rgb(255, 255, 255);
+    width: 45%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.meet_our_team {
+    text-align: center;
+    margin: 12px;
+}
+
+.meet_our_team h4 a {
+    background: unset;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.team_wrapper .card-body {
+    padding: unset;
+}
+
+.about_cont {
+    background: #35aab0;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+.about_cont a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.brand_content {
+    background: #fff;
+    margin-bottom: 20px;
+    display: flex;
+
+    padding: 3px;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.Brandimg {
+    width: 20%;
+}
+
+.Brandimg img {
+    width: 100%;
+}
+
+.brand_name {
+    margin-left: 10px;
+}
+
+.livingReady a span {
+
+    font-size: 32px;
+    color: #000;
+}
+
+.livingReady a span:hover {
+    border-bottom: 2px solid #35aab0;
+}
+
+.livingReady .main_heading h4 i {
+    margin-left: 15px;
+    color: #35aab0;
+}
+
+section.footer {
+    padding: 85px 0px 0px;
+    background-color: #efefef9e;
+}
+
+section.reviewBoard {
+    background-image: url(assests/img/review-bg.jpg);
+    padding: 70px 0px 32px 0px !important;
+}
+
+.reviewBoard span.counter {
+    width: 30px;
+    height: 30px;
+    background: #35aab0;
+    display: inline-block;
+    border-radius: 60%;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.right_review_side {
+    text-align: center;
+}
+
+.review_boards {
+    margin-top: 30px;
+}
+
+.review_boards .row {
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.reviewBoard .point {
+    margin-bottom: 20px;
+}
+
+.reviewBoard .text_icon h4 {
+    display: flex;
+    align-items: center;
+}
+
+.reviewBoard .text_icon span img {
+    width: 20px;
+}
+
+.reviewBoard .text_icon h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reviews a {
+    color: #35aab0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reviewer_img img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.reviewer_info h4 {
+    font-size: 16px;
+}
+
+.reviewer_info p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #35aab0;
+}
+
+.reviewer_info {
+    margin-top: 8px;
+    text-align: left;
+    margin-left: 4px;
+    line-height: 10px;
+}
+
+.reviews {
+    text-align: right;
+}
+
+.review_box {
+    background: #fff;
+    padding: 20px 15px 10px 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid #35aab0;
+    margin-bottom: 20px;
+}
+
+.left_review_side a {
+    border-bottom: 1px solid #35aab0;
+    color: #000;
+}
+
+.point span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* .para_review {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} */
+.review_boards .text_icon {
+    text-align: left;
+}
+
+.review_box:hover a,
+.card_blog h5 a:hover {
+    border-bottom: 2px solid #35aab0;
+    color: #000;
+}
+
+.left_review_side h4 {
+    color: #35aab0;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.blog_img img {
+    width: 100%;
+}
+
+section.stylish_dress {
+    /* background: #2e2e7c; */
+    background-color: #35aab0;
+}
+
+.stylish_dress .card {
+    padding: 72px 48px 0;
+    margin-top: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+
+.stylish_dress .card h5 a,
+.stylish_dress .card span,
+.stylish_dress .card p {
+    color: #fff;
+
+
+}
+
+.stylish_dress .col-md-6.img_card {
+    padding: unset;
+}
+
+.stylish_dress .card-body span {
+    position: relative;
+}
+
+.stylish_dress .card-body>span:before {
+    content: '';
+    background-image: url(assests/img/dot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 6px;
+    right: 15px;
+    height: 5px;
+}
+
+.stylish_dress .card-body>span::after {
+    content: '';
+    background-image: url(assests/img/dot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    height: 5px;
+    bottom: 6px;
+    left: 50px;
+
+}
+
+.card_blog h5 {
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.card_blog .authName {
+    font-size: 14px;
+    color: #35aab0;
+}
+
+.card_blog img.card-img-top {
+    width: 80px;
+}
+
+.logo_footer {
+    /* width: 20%; */
+    text-align: center;
+    margin-right: 70px;
+}
+
+.logo_footer img {
+    width: 200px;
+}
+
+.links_footer {
+    width: 20%;
+}
+
+.links_footer h4 {
+    margin-bottom: 15px;
+    color: #2c2c7e;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links_footer a {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.inner_footer {
+    display: flex;
+}
+
+.custom_btn {
+    font-weight: bold;
+}
+
+/* custom button  */
+a.btn.custom_btn {
+    border-radius: 0px;
+    border: 1px solid;
+    width: 100%;
+    background: #35aab0;
+    color: #fff;
+    padding: 10px 5px;
+}
+
+.off_menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    transition: 0.4s;
+    box-shadow: 0 30px 60px rgb(0 0 0 / 2%), 0 0 20px rgb(0 0 0 / 4%);
+
+}
+
+.mobile_navigation {
+    display: none;
+}
+
+.off_menu i {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: -15px;
+    margin-top: 12px;
+    right: 43px;
+    position: absolute;
+    top: 12px;
+    cursor: pointer;
+}
+
+.off_menu ul {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+div#off_menu ul li {
+    margin-bottom: 13px;
+    border-bottom: 1px;
+    background: #dddddd63;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.main h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2f2f7a;
+}
+hr {
+  
+    width: 15%;
+    margin: -8px auto;
+    border: 2px solid #aca9a9;
+}
+.details {
+    margin-top: 50px;
+}
+.main h2 {
+    font-size: 24px;
+}
+@media screen and (max-width:1024px) {
+    .navigation {
+        margin-right: 10px;
+    }
+
+    .left_review_side img {
+        width: 100%;
+    }
+
+    .banner_inner .card {
+        width: 80%;
+    }
+
+    .boxes .card {
+        width: auto;
+    }
+
+    .team_wrapper img {
+        width: 70px;
+        height: 70px;
+        border-radius: 60%;
+    }
+
+    .boxes .card img {
+        width: 60px;
+    }
+
+    .brand_content {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: unset;
+        margin-bottom: 16px;
+    }
+
+    .Brandimg {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .inner_footer {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    body br {
+        display: none;
+    }
+
+    .logo_footer,
+    .links_main {
+        width: 100%;
+    }
+
+    .inner_footer {
+        padding: 0px 30px;
+    }
+
+    .right_side .card {
+        background: #fff;
+        padding: 20px 13px;
+    }
+
+    .right_side .card {
+        background: #fff;
+        padding: 20px 0px;
+    }
+
+    .img_text p {
+        display: none;
+    }
+
+    .team_info {
+        margin: 40px 0px;
+    }
+
+    .team_wrapper h5.card-title {
+        font-size: 16px;
+    }
+
+    /* p.card-text {
+        width: 70%;
+        margin: 40px auto 0px auto;
+    } */
+    .mission_wrapper .card {
+        padding: 20px 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+    .navigation {
+        display: none;
+    }
+
+    .mobile_navigation {
+        display: block;
+        width: 50%;
+        position: absolute;
+        top: 35%;
+        right: 0;
+    }
+
+    .right_side .card {
+        background: #fff;
+        padding: 20px 13px;
+    }
+
+    .team_wrapper {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .team {
+        flex-wrap: wrap;
+    }
+
+    .team_info {
+        width: 50%;
+    }
+
+    .team_wrapper p.card-text {
+        width: 34%;
+        margin: 42px auto 20px auto;
+    }
+
+    .team_wrapper .teams {
+        height: 210px;
+    }
+
+    .blogs .card {
+        transition: .4s ease-in-out;
+        margin-bottom: 30px;
+        border: none;
+    }
+
+    .section.reviewBoard,
+    .para_review {
+        text-align: center;
+    }
+
+    .stylish_dress .row {
+        flex-direction: column-reverse;
+    }
+
+    .stylish_dress .card {
+        padding: 0px 0px 29px;
+    }
+
+    .mission_wrapper {
+        margin-top: 30px;
+    }
+
+    .boxes .card {
+        width: 100%;
+        border: none;
+    }
+
+    .boxes .col-md-3 {
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .boxes p.card-text {
+        line-height: 22px;
+        font-size: 14px;
+
+    }
+
+    .right_side .card-body>.row>.col-md-6 {
+        width: 50%;
+    }
+
+    .teams {
+        flex-wrap: wrap;
+    }
+
+    .team_info {
+        width: 35%;
+        margin: 0px 0px;
+    }
+
+    .team_wrapper .teams {
+        height: auto;
+    }
+
+    .review_boards .text_icon,
+    .reviews {
+        text-align: center;
+    }
+
+    .row.reviewers .col-md-6 {
+        width: 50%;
+    }
+
+    .review_box {
+        height: auto;
+        text-align: center;
+    }
+
+    .reviewer_info {
+        text-align: center;
+    }
+
+    .banner_inner {
+        position: relative;
+    }
+
+    .banner_inner .card {
+        position: absolute;
+        bottom: -40%;
+        z-index: 99;
+        left: 0%;
+        width: 100%;
+        margin: unset;
+        cursor: pointer;
+        border: 0.6875rem solid #35aab0;
+    }
+
+    .right_side {
+        margin-top: 240px;
+    }
+
+    .banner_inner .card a {
+        font-size: 36px;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .logo_wrapper {
+        width: 50%;
+        text-align: left;
+        /* padding-left: 40px; */
+
+    }
+
+    .banner_inner .card a {
+        font-size: 28px;
+    }
+
+    .banner_inner .card h2 {
+        font-size: 44px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .banner_inner .card h5 {
+        text-align: center;
+    }
+
+    .logo_footer {
+        margin-bottom: 20px;
+        margin-left: -18px;
+    }
+
+    .logo_wrapper img {
+        width: 160px;
+    }
+
+
+
+    .links_main {
+        flex-wrap: wrap;
+    }
+
+    .links_footer {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+
+    .logo_footer {
+        text-align: left;
+    }
+
+    .logo_footer img {
+        width: 160px;
+    }
+
+    .left_review_side img {
+        width: 100%;
+    }
+
+    .boxes .col-md-3 {
+        width: 50%;
+    }
+
+    .mission_wrapper p.card-text {
+        font-size: 16px;
+    }
+
+    .mission_wrapper h5.card-title {
+        font-size: 18px;
+    }
+
+    .mission_wrapper .card-body h4 {
+        font-size: 30px;
+    }
+
+    .team_wrapper p.card-text {
+        width: 95%;
+    }
+
+    .team_wrapper a {
+        font-size: 14px;
+    }
+
+    .card_blog h5 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .card_blog img.card-img-top {
+        width: 50px;
+    }
+
+    .livingReady a span {
+        font-size: 24px;
+        color: #000;
+    }
+
+    .left_review_side h4,
+    .right_review_side h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .para_review p,
+    .point span {
+        font-size: 14px;
+    }
+
+    .reviewBoard span.counter {
+        width: 20px;
+        height: 20px;
+        line-height: 23px;
+    }
+
+    .banner,
+    .editors,
+    .mission_team,
+    section.reviewBoard {
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .right_side {
+        margin-top: 200px;
+    }
+
+    .about_cont {
+        background: #35aab0;
+        padding: 3px 23px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .links_footer {
+        width: 50%;
+    }
+
+
+}
